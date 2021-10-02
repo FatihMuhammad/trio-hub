@@ -75,16 +75,6 @@
                     <li>
                         <a href="#"><i class="fa fa-qrcode "></i>Tabs & Panels</a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-bar-chart-o"></i>Mettis Charts</a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fa fa-edit "></i>Last Link </a>
-                    </li>
-                    <li>
-                        <a href="blank.html"><i class="fa fa-table "></i>Blank Page</a>
-                    </li>
                 </ul>
 
             </div>
