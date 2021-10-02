@@ -24,7 +24,7 @@ function http_request($url){
     return $output;
 }
 
-$profile = http_request("http://scrap.terhambar.com/yt?link=$yt");
+$profile = http_request("https://vikoapi-index.herokuapp.com/api/ytmp4?url=$yt&apikey=PXWAsdoP");
 
 // ubah string JSON menjadi array
 $profile = json_decode($profile, TRUE);
@@ -48,13 +48,11 @@ $profile = json_decode($profile, TRUE);
                 <div class="row">
                 <div class="col-md-8">
 				<video width="256" height="144" controls>
-				<source src="<?php echo $profile["linkVideo"] ?>" type="video/mp4">
+				<source src="<?php echo $profile["result"]["result"] ?>" type="video/mp4">
 				Your browser does not support the video tag.
 				</video>
-				<h5>Judul : <?php echo $profile["title"] ?></h5>
-				<h5>Durasi : <?php echo $profile["duration"]["inText"] ?></h5>
-				 <a href="<?php echo $profile["linkVideo"] ?>" class="btn btn-primary">Download Video</a>
-                <a href="<?php echo $profile["linkAudioOnly"] ?>" class="btn btn-success">Download Audio Saja</a>
+				<h5>Judul : <?php echo $profile["result"]["title"] ?></h5>
+				 <a href="<?php echo $profile["result"]["result"] ?>" class="btn btn-primary">Download Video</a>
                 </div>
             </div>
                 </div>
