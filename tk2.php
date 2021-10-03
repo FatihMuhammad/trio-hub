@@ -24,7 +24,7 @@ function http_request($url){
     return $output;
 }
 
-$profile = http_request("http://scrap.terhambar.com/tiktokfull?link=$tk");
+$profile = http_request("https://hadi-api.herokuapp.com/api/tiktok?url=$tk");
 
 // ubah string JSON menjadi array
 $profile = json_decode($profile, TRUE);
@@ -48,14 +48,13 @@ $profile = json_decode($profile, TRUE);
                 <div class="row">
                 <div class="col-md-8">
 				<video width="256" height="144" controls>
-				<source src="<?php echo $profile["result"]["videoData"]["linkVideo"]["withWatermark"] ?>" type="video/mp4">
+				<source src="<?php echo $profile["result"]["video"]["nowm"] ?>" type="video/mp4">
 				Your browser does not support the video tag.
 				</video>
-				<h5>Username : <?php echo $profile["result"]["username"] ?></h5>
-				<h5>Caption : <?php echo $profile["result"]["caption"] ?></h5>
-				<h5>Lagu : <?php echo $profile["result"]["musicData"]["song"] ?></h5>
-				 <a href="<?php echo $profile["result"]["videoData"]["linkVideo"]["withWatermark"] ?>" class="btn btn-primary">Download Dengan Watermark</a>
-                <a href="<?php echo $profile["result"]["videoData"]["linkVideo"]["withoutWatermark"] ?>" class="btn btn-success">Download Tanpa Watermark</a>
+				<br /><br />
+				<a href="<?php echo $profile["result"]["video"]["nowm"] ?>" class="btn btn-success">Download S1</a>
+                <a href="<?php echo $profile["result"]["video"]["mp4"] ?>" class="btn btn-success">Download S2</a>
+				<a href="<?php echo $profile["result"]["video"]["original"] ?>" class="btn btn-success">Download Original</a>
                 </div>
             </div>
                 </div>
