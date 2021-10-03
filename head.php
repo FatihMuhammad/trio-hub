@@ -49,11 +49,8 @@
                     <li>
                         <a href="#"><i class="fa fa-download "></i>Downloader<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li>
-                                <a href="fb1.php">Facebook Downloader</a>
-                            </li>
 							<li>
-                                <a href="fb3.php">Facebook Downloader 2</a>
+                                <a href="fb3.php">Facebook Downloader</a>
                             </li>
 							<li>
                                 <a href="ig">Instagram Downloader</a>
@@ -69,6 +66,9 @@
                             </li>
 							<li>
                                 <a href="yt3.php">Youtube Downloader 2</a>
+                            </li>
+							<li>
+                                <a href="dl-yta.php">Youtube Audio Downloader</a>
                             </li>
                         </ul>
                     </li>
