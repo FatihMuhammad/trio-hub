@@ -4,8 +4,9 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 ### Downloader
 - Tiktok Downloader
 - Twitter Downloader
-- Youtube Downloader
 - Facebook Downloader
+- Youtube Downloader
+- Youtube Audio Downloader
 
 ### Other
 - Bapack Font Generator
