@@ -73,7 +73,18 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-qrcode "></i>Tabs & Panels</a>
+                        <a href="#"><i class="fa fa-link "></i>Other<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+							<li>
+                                <a href="qrs.php">QR Code Generator</a>
+                            </li>
+							<li>
+                                <a href="qr.php">QR Code Generator 2</a>
+                            </li>
+							<li>
+                                <a href="ip1.php">IP Lookup Geolocation</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
 
