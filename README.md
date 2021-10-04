@@ -9,5 +9,5 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 - Youtube Audio Downloader
 
 ### Other
-- Bapack Font Generator
+- QR Code Generator
 - IP Geolocation Track
