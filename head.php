@@ -85,10 +85,16 @@
                                 <a href="ip1.php">IP Lookup Geolocation</a>
                             </li>
 							<li>
-                                <a href="ip1.php">URL Shortener / Bitly</a>
+                                <a href="sh-gd.php">URL Shortener / is.gd</a>
                             </li>
 							<li>
-                                <a href="ip1.php">URL Shortener / TinyURL</a>
+                                <a href="sh-bit.php">URL Shortener / Bitly</a>
+                            </li>
+							<li>
+                                <a href="sh-cut.php">URL Shortener / Cuttly</a>
+                            </li>
+							<li>
+                                <a href="sh-tiny.php">URL Shortener / TinyURL</a>
                             </li>
                         </ul>
                     </li>
