@@ -84,6 +84,12 @@
 							<li>
                                 <a href="ip1.php">IP Lookup Geolocation</a>
                             </li>
+							<li>
+                                <a href="ip1.php">URL Shortener / Bitly</a>
+                            </li>
+							<li>
+                                <a href="ip1.php">URL Shortener / TinyURL</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
