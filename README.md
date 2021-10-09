@@ -11,5 +11,7 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 ### Other
 - QR Code Generator
 - IP Geolocation Track
-- Shorturl Bitlly
+- Shorturl is.gd
+- Shorturl Bitly
+- Shorturl Cuttly
 - Shorturl TinyUrl
