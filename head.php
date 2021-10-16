@@ -68,7 +68,13 @@
                                 <a href="yt3.php">Youtube Downloader 2</a>
                             </li>
 							<li>
+                                <a href="dl-ytv.php">Youtube Downloader 3</a>
+                            </li>
+							<li>
                                 <a href="dl-yta.php">Youtube Audio Downloader</a>
+                            </li>
+							<li>
+                                <a href="dl-ytab.php">Youtube Audio Downloader 2</a>
                             </li>
                         </ul>
                     </li>
