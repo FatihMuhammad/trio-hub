@@ -82,6 +82,12 @@
                         <a href="#"><i class="fa fa-link "></i>Other<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
 							<li>
+                                <a href="webpdf.php">Webpage to PDF</a>
+                            </li>
+							<li>
+                                <a href="webss.php">Webpage Screenshot</a>
+                            </li>
+							<li>
                                 <a href="qrs.php">QR Code Generator</a>
                             </li>
 							<li>
