@@ -10,6 +10,7 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 
 ### Lookup
 - DNS Lookup
+- IP Lookup
 
 ### Other
 - QR Code Generator
