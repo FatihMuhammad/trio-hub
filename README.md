@@ -8,6 +8,9 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 - Youtube Downloader
 - Youtube Audio Downloader
 
+### Lookup
+- DNS Lookup
+
 ### Other
 - QR Code Generator
 - IP Geolocation Track
