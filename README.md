@@ -6,7 +6,9 @@ Trio Hub berisi tools yang membantu dalam bersosial media
 - Twitter Downloader
 - Facebook Downloader
 - Youtube Downloader
+- Tiktok Video Downloader
 - Youtube Audio Downloader
+- Sticker Line Batch Downloader
 
 ### Lookup
 - DNS Lookup
